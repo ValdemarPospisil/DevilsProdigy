@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Wooden Glaive
+  m_EditorClassIdentifier: 
+  mat: 0
+  type: 1
+  itemID: 2
+  Name: Wooden Glaive
+  uiDisplay: {fileID: -570056158, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 8 - 14 + Elemental Damage
+
+    Knockback power: 8
+
+    Weapon
+    Type: Polearms
+
+    Element: Nature'
+  longDescription: 'The Wooden Glaive is an elegant weapon that embodies the power
+    of nature. Crafted from resilient hardwood, its long shaft and curved blade allow
+    for swift and precise strikes.
+
+    
+
+    What sets the Wooden Glaive apart
+    is its affinity for the nature element. As the wielder attunes to natural energies,
+    the glaive''s power amplifies, scaling its damage potential with the raw might
+    of nature.
+
+    
+
+    Created by skilled craftsmen who shape and refine the
+    wood, the Wooden Glaive becomes a graceful and deadly tool. It symbolizes the
+    harmonious bond between humanity and the natural world, channeling the untamed
+    strength of nature itself.'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 20b3a5804c9281148a2a0655d757dfc2, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805476776607744
+  - rid: 1726805476776607745
+  - rid: 1726805476776607746
+  - rid: 1726805590730080301
+  - rid: 7577151533548830733
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805476776607744
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: 
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -253455404, guid: ac632ed3d9eb60a4a922bfb4d28263ed, type: 3}
+            - {fileID: 670842715, guid: ac632ed3d9eb60a4a922bfb4d28263ed, type: 3}
+            - {fileID: 1787320673, guid: ac632ed3d9eb60a4a922bfb4d28263ed, type: 3}
+            - {fileID: 1662040996, guid: ac632ed3d9eb60a4a922bfb4d28263ed, type: 3}
+    - rid: 1726805476776607745
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 4
+    - rid: 1726805476776607746
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.2
+            y: -0.4
+            width: 2.4
+            height: 0.7
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080301
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 8
+          <AmountMax>k__BackingField: 14
+    - rid: 7577151533548830733
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 2}
+          <Strength>k__BackingField: 8

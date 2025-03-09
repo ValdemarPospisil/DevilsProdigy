@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Wooden Staff
+  m_EditorClassIdentifier: 
+  mat: 0
+  type: 3
+  itemID: 38
+  Name: Wooden Staff
+  uiDisplay: {fileID: 117131621, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: Wooden staff
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: f3a07677e9ee8944e9355c64f2f7bb36, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805476776607756
+  - rid: 7548839450595557376
+  - rid: 7548839450595557377
+  - rid: 7548839450595557378
+  - rid: 7548839450595557379
+  - rid: 7548839450595557380
+  - rid: 7548839450595557381
+  - rid: 7548839450595557382
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805476776607756
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: 978615976, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: 518971099, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: -806301716, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+          - <Phase>k__BackingField: 1
+            <Sprites>k__BackingField:
+            - {fileID: 1400193694, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: 1254387449, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: -495432867, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -495432867, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: 1254387449, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: 1400193694, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+          - <Phase>k__BackingField: 3
+            <Sprites>k__BackingField:
+            - {fileID: 978615976, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: 518971099, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: -806301716, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: 518971099, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+            - {fileID: 978615976, guid: 01c8259e3c029f843938b9b022dcf188, type: 3}
+    - rid: 7548839450595557376
+      type: {class: InputHoldData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: InputHoldData
+    - rid: 7548839450595557377
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 7548839450595557378
+      type: {class: TargeterData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: TargeterData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Area>k__BackingField:
+            serializedVersion: 2
+            x: -15
+            y: -3.2
+            width: 30
+            height: 10
+          <DamageableLayer>k__BackingField:
+            serializedVersion: 2
+            m_Bits: 128
+    - rid: 7548839450595557379
+      type: {class: TargeterToProjectileData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: TargeterToProjectileData
+    - rid: 7548839450595557380
+      type: {class: ChargeData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ChargeData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <ChargeTime>k__BackingField: 1
+          <InitialChargeAmount>k__BackingField: 1
+          <NumberOfCharges>k__BackingField: 3
+          <ChargeIncreaseIndicatorParticlePrefab>k__BackingField: {fileID: 6762676686280720063, guid: 19758c9f67bb0264e8437296ed15d9ee, type: 3}
+          <FullyChargedIndicatorParticlePrefab>k__BackingField: {fileID: 6762676686280720063, guid: 19758c9f67bb0264e8437296ed15d9ee, type: 3}
+          <ParticlesOffset>k__BackingField: {x: 0.2, y: 0.4}
+    - rid: 7548839450595557381
+      type: {class: ChargeToProjectileSpawnerData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ChargeToProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <AngleVariation>k__BackingField: 226
+    - rid: 7548839450595557382
+      type: {class: ProjectileSpawnerData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <SpawnInfos>k__BackingField:
+          - <Offset>k__BackingField: {x: 0.32, y: 0.46}
+            <Direction>k__BackingField: {x: 1, y: 0.25}
+            <ProjectilePrefab>k__BackingField: {fileID: 8536740379263470225, guid: 14fa04f46e4edfa4da4077af3e705564, type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 10
+            <KnockBackData>k__BackingField:
+              Strength: 0
+              Angle: {x: 0, y: 0}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 0
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: -302778633, guid: 1e25cfbc297d5b444932196c6ffe7df2, type: 3}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e098abd21b8ac4bbfd9f869e9d8799, type: 3}
+  m_Name: Terra Shard Back
+  m_EditorClassIdentifier: 
+  type: 0
+  uiDisplay: {fileID: -1703490716, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Terra Shard Back
+  description: '"Command the unbreakable force of the earth element with Terra Shard,
+    launching shards of unyielding rock from your back that reduce enemies to rubble.
+
+
+    Damage:
+    16 + Earth Damage
+
+    Speed: Slow
+
+    Travel Distance: Short to Medium
+
+'
+  element: 2
+  projectile: {fileID: 2838345424615799783, guid: 1efd2e14ab2fc7146af954a75856136e, type: 3}
+  projectileSpeed: 10.1
+  travelDistance: 7.6
+  damage: 16
+  isBack: 1

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Celestial Bronze Glaive
+  m_EditorClassIdentifier: 
+  mat: 1
+  type: 1
+  itemID: 9
+  Name: Celestial Bronze Glaive
+  uiDisplay: {fileID: -170902254, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 11 - 18 + Elemental Damage
+
+    Knockback power: 8
+
+    Weapon
+    Type: Polearms
+
+    Element: Holy'
+  longDescription: 'The Celestial Bronze Glaive is a divine weapon forged from sacred
+    celestial bronze. With its radiant presence and formidable design, it commands
+    attention on the battlefield.
+
+    Crafted from the celestial alloy, the Celestial
+    Bronze Glaive possesses exceptional durability and cutting power. Its elongated
+    blade, expertly crafted, allows for precise and sweeping strikes.
+
+    What
+    sets the Celestial Bronze Glaive apart is its profound connection to the holy
+    element. As the wielder embraces their divine purpose, its power amplifies, scaling
+    its damage potential with the righteous force of holiness.
+
+    Created by skilled
+    artisans blessed with celestial guidance, the Celestial Bronze Glaive represents
+    the union of celestial materials and holy craftsmanship. It becomes an instrument
+    of righteousness, channeling the divine energy to strike down evil and bring
+    forth the radiant light of justice.'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 20b3a5804c9281148a2a0655d757dfc2, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805476776607744
+  - rid: 1726805476776607745
+  - rid: 1726805476776607746
+  - rid: 1726805590730080294
+  - rid: 7577151533548830726
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805476776607744
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: 
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -1953756959, guid: 0bc55ba10a9d26f4195dd7ee3150d5f2, type: 3}
+            - {fileID: 659882458, guid: 0bc55ba10a9d26f4195dd7ee3150d5f2, type: 3}
+            - {fileID: 494695786, guid: 0bc55ba10a9d26f4195dd7ee3150d5f2, type: 3}
+            - {fileID: 1913510525, guid: 0bc55ba10a9d26f4195dd7ee3150d5f2, type: 3}
+    - rid: 1726805476776607745
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 4
+    - rid: 1726805476776607746
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.2
+            y: -0.4
+            width: 2.4
+            height: 0.7
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080294
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 11
+          <AmountMax>k__BackingField: 18
+    - rid: 7577151533548830726
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 2}
+          <Strength>k__BackingField: 8

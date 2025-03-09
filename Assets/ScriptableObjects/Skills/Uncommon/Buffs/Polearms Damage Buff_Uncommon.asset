@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e1e7410ecf94947b13c407db919fe3, type: 3}
+  m_Name: Polearms Damage Buff_Uncommon
+  m_EditorClassIdentifier: 
+  type: 1
+  uiDisplay: {fileID: -202722282, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Piercing Thrust Buff
+  description: 'Sharpen your polearm skills, dealing increased damage with every
+    thrust.
+
+
+    Bonus Damage: 10
+
+    Weapons: Spear, Glaive, Trident'
+  bonusWeaponDamage: 10
+  weaponType: 1

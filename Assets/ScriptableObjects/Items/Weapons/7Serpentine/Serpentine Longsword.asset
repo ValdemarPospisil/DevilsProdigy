@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Serpentine Longsword
+  m_EditorClassIdentifier: 
+  mat: 6
+  type: 0
+  itemID: 55
+  Name: Serpentine Longsword
+  uiDisplay: {fileID: -1891077564, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 50 - 70 + Elemental Damage
+
+    Knockback power: 12
+
+    Weapon
+    Type: Swords
+
+    Element: Acid'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 2ca04fd672a04b040ac5e75dcce278b8, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805471765463040
+  - rid: 1726805471765463041
+  - rid: 1726805471765463042
+  - rid: 1726805590730080326
+  - rid: 7577151533548830743
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805471765463040
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 2018469385, guid: de0aae822e44e204eba6eb1f6b68274c, type: 3}
+            - {fileID: 1202032287, guid: de0aae822e44e204eba6eb1f6b68274c, type: 3}
+            - {fileID: 1943788778, guid: de0aae822e44e204eba6eb1f6b68274c, type: 3}
+            - {fileID: 1500720458, guid: de0aae822e44e204eba6eb1f6b68274c, type: 3}
+    - rid: 1726805471765463041
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 5
+    - rid: 1726805471765463042
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.2
+            y: -0.5
+            width: 1.5
+            height: 1.2
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080326
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 50
+          <AmountMax>k__BackingField: 70
+    - rid: 7577151533548830743
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 3}
+          <Strength>k__BackingField: 12

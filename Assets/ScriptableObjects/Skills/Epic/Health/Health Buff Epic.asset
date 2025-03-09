@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c585779c4d694409974d1d379b79e3, type: 3}
+  m_Name: Health Buff Epic
+  m_EditorClassIdentifier: 
+  type: 3
+  uiDisplay: {fileID: 1839518485, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Health Buff
+  description: Fortify your vitality with a potent Health Boost, augmenting your
+    maximum health by 100 points and enhancing your resilience.
+  bonusHealth: 100

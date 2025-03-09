@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e098abd21b8ac4bbfd9f869e9d8799, type: 3}
+  m_Name: Timber Toss Back
+  m_EditorClassIdentifier: 
+  type: 0
+  uiDisplay: {fileID: 471373350, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Timber Toss Back
+  description: 'Harness the raw strength of the forest as Timber Toss shoots from
+    your back, propelling wooden projectiles that crush foes with the might of nature.
+
+
+    Damage:
+    10 + Nature Damage
+
+    Speed: Slow
+
+    Travel Distance: Short to Medium
+
+'
+  element: 9
+  projectile: {fileID: 2838345424615799783, guid: 9037c4139f93c0c4683409f4b24200f5, type: 3}
+  projectileSpeed: 8.3
+  travelDistance: 13.8
+  damage: 10
+  isBack: 1

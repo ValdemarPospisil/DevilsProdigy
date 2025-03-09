@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e098abd21b8ac4bbfd9f869e9d8799, type: 3}
+  m_Name: Epic Zephyr Slash
+  m_EditorClassIdentifier: 
+  type: 3
+  uiDisplay: {fileID: -842179180, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Zephyr Slash
+  description: 'Unleash the swiftness of the wind with Zephyr Slash, performing lightning-fast
+    slashes that cut through enemies like a gentle breeze.
+
+
+
+    Damage: 40 + Wind
+    Damage
+
+    Speed: Fast
+
+    Travel Distance: Long
+
+'
+  element: 8
+  projectile: {fileID: 2838345424615799783, guid: f210dc8352ca4d7498c473de4f0b73a5, type: 3}
+  projectileSpeed: 17.6
+  travelDistance: 6.4
+  damage: 40
+  isBack: 0

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Wooden Spear
+  m_EditorClassIdentifier: 
+  mat: 0
+  type: 1
+  itemID: 4
+  Name: Wooden Spear
+  uiDisplay: {fileID: -1850334140, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 9 - 13 + Elemental Damage
+
+    Knockback power: 10
+
+    Weapon
+    Type: Polearms
+
+    Element: Nature'
+  longDescription: 'The Wooden Spear is a versatile weapon that draws strength from
+    nature''s essence. Skillfully crafted from resilient hardwood, it consists of
+    a long wooden shaft topped with a pointed blade.
+
+    What sets the Wooden Spear
+    apart is its affinity for the nature element. As the wielder taps into the natural
+    energies around them, the spear''s power amplifies, scaling its damage potential
+    with the raw might of nature.
+
+    Forged by skilled artisans, the Wooden Spear
+    embodies the seamless union of natural materials. Its sturdy wood and precise
+    construction symbolize the connection between humanity and the natural world.
+
+    The
+    Wooden Spear serves as a testament to the primal bond between humanity and nature,
+    channeling its innate energy into a weapon that allows for agile strikes and
+    piercing thrusts. It becomes an extension of the wielder''s will, harnessing
+    the forces of nature to overcome adversaries with finesse and power.'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 20b3a5804c9281148a2a0655d757dfc2, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805476776607753
+  - rid: 1726805476776607754
+  - rid: 1726805476776607755
+  - rid: 1726805590730080339
+  - rid: 7577151533548830756
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805476776607753
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -1725189243, guid: 02502dbae2473884284b47bee53ac037, type: 3}
+            - {fileID: 762999913, guid: 02502dbae2473884284b47bee53ac037, type: 3}
+            - {fileID: -568573983, guid: 02502dbae2473884284b47bee53ac037, type: 3}
+            - {fileID: 743545568, guid: 02502dbae2473884284b47bee53ac037, type: 3}
+    - rid: 1726805476776607754
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 3
+    - rid: 1726805476776607755
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.2
+            y: -0.4
+            width: 2.4
+            height: 0.7
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080339
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 9
+          <AmountMax>k__BackingField: 13
+    - rid: 7577151533548830756
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 2}
+          <Strength>k__BackingField: 10

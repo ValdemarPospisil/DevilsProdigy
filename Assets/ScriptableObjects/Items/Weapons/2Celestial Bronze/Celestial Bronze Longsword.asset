@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Celestial Bronze Longsword
+  m_EditorClassIdentifier: 
+  mat: 1
+  type: 0
+  itemID: 11
+  Name: Celestial Bronze Longsword
+  uiDisplay: {fileID: 2134768744, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage:  11 - 16 + Elemental Damage
+
+    Knockback power: 12
+
+    Weapon
+    Type: Swords
+
+    Element: Holy'
+  longDescription: 'The Celestial Bronze Longsword is a divine weapon crafted from
+    sacred celestial bronze, emanating an otherworldly aura. Its sleek and elegant
+    design conceals tremendous power.
+
+    Forged with celestial artistry, the Celestial
+    Bronze Longsword exhibits exceptional durability and sharpness. Its slender blade,
+    expertly crafted, allows for swift and precise strikes against adversaries.
+
+    What
+    sets the Celestial Bronze Longsword apart is its profound connection to the holy
+    element. As the wielder embraces their divine purpose, its power intensifies,
+    scaling its damage potential with the righteous force of holiness.
+
+    Created
+    by skilled artisans blessed with celestial guidance, the Celestial Bronze Longsword
+    represents the harmonious fusion of celestial materials and holy craftsmanship.
+    It becomes an instrument of righteousness, empowering the wielder to smite darkness
+    and restore harmony with its resplendent divine might.'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 2ca04fd672a04b040ac5e75dcce278b8, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805471765463040
+  - rid: 1726805471765463041
+  - rid: 1726805471765463042
+  - rid: 1726805590730080317
+  - rid: 7577151533548830736
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805471765463040
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1167058181, guid: a9e8add56bebbec45ab51e9e2049eeb2, type: 3}
+            - {fileID: -2013993705, guid: a9e8add56bebbec45ab51e9e2049eeb2, type: 3}
+            - {fileID: 1171402786, guid: a9e8add56bebbec45ab51e9e2049eeb2, type: 3}
+            - {fileID: -2101160163, guid: a9e8add56bebbec45ab51e9e2049eeb2, type: 3}
+    - rid: 1726805471765463041
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 5
+    - rid: 1726805471765463042
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.2
+            y: -0.5
+            width: 1.5
+            height: 1.2
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080317
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 11
+          <AmountMax>k__BackingField: 16
+    - rid: 7577151533548830736
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 3}
+          <Strength>k__BackingField: 12

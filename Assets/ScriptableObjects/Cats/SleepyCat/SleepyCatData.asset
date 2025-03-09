@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fee85c6828d3a7d43b27eeb1a0860c2d, type: 3}
+  m_Name: SleepyCatData
+  m_EditorClassIdentifier: 
+  maxHealth: 30
+  DamageHopSpeed: 3
+  ledgeCheckDistance: 0.4
+  wallCheckDistance: 0.2
+  groundCheckRadius: 0.3
+  stunResistance: 3
+  stunRecoveryTime: 1
+  minAgroDistance: 2
+  maxAgroDistance: 4
+  closeRangeActionDistance: 1.2
+  hitParticle: {fileID: 6811539567041321900, guid: b712cb0de9c94b2468aa3ac577a4c080, type: 3}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 512

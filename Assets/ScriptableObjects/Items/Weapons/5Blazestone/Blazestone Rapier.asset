@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Blazestone Rapier
+  m_EditorClassIdentifier: 
+  mat: 5
+  type: 0
+  itemID: 37
+  Name: Blazestone Rapier
+  uiDisplay: {fileID: -1921322285, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 35 - 41 + Elemental Damage
+
+    Knockback power: 15
+
+    Weapon
+    Type: Swords
+
+    Element: Fire'
+  longDescription: 'The Blazestone Rapier is a remarkable weapon forged from the
+    rare and mystical Blazestone material. Its slender and agile blade showcases
+    intricate flame-like patterns, while its intricate hilt provides excellent maneuverability
+    and control.
+
+    What sets the Blazestone Rapier apart is its exceptional craftsmanship
+    and its profound affinity for the fire element. As the wielder unleashes their
+    fiery prowess, the rapier''s power intensifies, scaling its damage potential
+    with scorching heat and the relentless fury of flames.
+
+    Forged by master
+    artisans who possess profound knowledge of working with Blazestone, the Blazestone
+    Rapier represents the epitome of weapon mastery. Its elegant design and flawless
+    construction make it a symbol of finesse and unwavering determination.
+
+    As
+    a testament to the profound bond between humanity and fire, the Blazestone Rapier
+    channels the elemental power into a weapon capable of delivering precise thrusts
+    and unleashing blistering waves of searing fire upon adversaries. It becomes
+    an extension of the wielder''s fiery might, empowering them to engulf enemies
+    in scorching flames and harness the relentless heat of an inferno to swiftly
+    and gracefully overcome their foes.'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 2ca04fd672a04b040ac5e75dcce278b8, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805452713099264
+  - rid: 1726805452713099265
+  - rid: 1726805452713099266
+  - rid: 1726805590730080285
+  - rid: 7577151613402349569
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805452713099264
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 163818480, guid: f4db176b327f23a4385692f425924e3e, type: 3}
+            - {fileID: 1782695391, guid: f4db176b327f23a4385692f425924e3e, type: 3}
+            - {fileID: -1044403134, guid: f4db176b327f23a4385692f425924e3e, type: 3}
+            - {fileID: -1938233474, guid: f4db176b327f23a4385692f425924e3e, type: 3}
+    - rid: 1726805452713099265
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 3
+    - rid: 1726805452713099266
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.2
+            y: -0.5
+            width: 1.5
+            height: 1.2
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080285
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 35
+          <AmountMax>k__BackingField: 41
+    - rid: 7577151613402349569
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 1}
+          <Strength>k__BackingField: 15

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - ParticleContainer
+  - SpawnPoint
+  - Rooms
+  - Enemies
+  - Teleporter
+  - Skill
+  - SecondaryWeapon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Damagable
+  - Dead
+  - Player
+  - Weapon
+  - Item
+  - DamageDealers
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3537864545
+    locked: 0
+  - name: Decoration
+    uniqueID: 4036206803
+    locked: 0
+  - name: InactiveProjectile
+    uniqueID: 1910535261
+    locked: 0
+  - name: Platform
+    uniqueID: 3315735369
+    locked: 0
+  - name: Enemy
+    uniqueID: 3539937627
+    locked: 0
+  - name: Player
+    uniqueID: 3677462001
+    locked: 0
+  - name: ActivePrpjectile
+    uniqueID: 2149606929
+    locked: 0
+  - name: Foreground
+    uniqueID: 659198605
+    locked: 0

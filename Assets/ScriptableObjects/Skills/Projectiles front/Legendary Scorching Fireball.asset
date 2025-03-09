@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e098abd21b8ac4bbfd9f869e9d8799, type: 3}
+  m_Name: Legendary Scorching Fireball
+  m_EditorClassIdentifier: 
+  type: 4
+  uiDisplay: {fileID: 1685534119, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Scorching Fireball
+  description: 'Unleash fiery wrath with Scorching Fireball, casting incendiary orbs
+    that explode upon impact, engulfing foes in a blazing inferno.
+
+
+
+    Damage:
+    50 + Fire Damage
+
+    Speed: Moderate to Fast
+
+    Travel Distance: Medium
+
+'
+  element: 3
+  projectile: {fileID: 2838345424615799783, guid: cf445ce59c0784a468b724c70c031f0a, type: 3}
+  projectileSpeed: 15.3
+  travelDistance: 7.6
+  damage: 50
+  isBack: 0

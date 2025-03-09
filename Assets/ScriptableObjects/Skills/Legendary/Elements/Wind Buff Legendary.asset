@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c38849e9f38ec348b37ad15bb5a12e3, type: 3}
+  m_Name: Wind Buff Legendary
+  m_EditorClassIdentifier: 
+  type: 4
+  uiDisplay: {fileID: 449298640, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Legendary Windwalker Mastery Buff
+  description: 'Attain mastery over the wind, as your strikes bring unparalleled
+    turbulence and damage.
+
+
+    Bonus Wind Damage: 50'
+  element: 8
+  bonusElementDamage: 50

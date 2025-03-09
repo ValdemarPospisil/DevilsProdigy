@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e1e7410ecf94947b13c407db919fe3, type: 3}
+  m_Name: Long Range Damage Buff_Common
+  m_EditorClassIdentifier: 
+  type: 0
+  uiDisplay: {fileID: -1791778596, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Longshot Damage Buff
+  description: 'Enhance the power of long-range weapons, delivering devastating damage
+    from a distance.
+
+
+    Bonus Damage: 5
+
+    Weapons: Bow'
+  bonusWeaponDamage: 5
+  weaponType: 3

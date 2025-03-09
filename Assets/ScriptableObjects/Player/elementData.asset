@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e294af2c548ab7845aff8404d6d494e9, type: 3}
+  m_Name: elementData
+  m_EditorClassIdentifier: 
+  acidDamage: 0
+  darkDamage: 0
+  earthDamage: 0
+  fireDamage: 70
+  holyDamage: 0
+  iceDamage: 0
+  thunderDamage: 0
+  waterDamage: 0
+  windDamage: 0
+  woodDamage: 0
+  bonusAcidDamage: 0
+  bonusDarkDamage: 0
+  bonusEarthDamage: 0
+  bonusFireDamage: 0
+  bonusHolyDamage: 0
+  bonusIceDamage: 0
+  bonusThunderDamage: 0
+  bonusWaterDamage: 0
+  bonusWindDamage: 0
+  bonusWoodDamage: 0
+  swordDamage: 0
+  polearmDamage: 0
+  heavyDamage: 0
+  longRangeDamage: 0
+  bonusSwordDamage: 0
+  bonusPolearmDamage: 0
+  bonusHeavyDamage: 0
+  bonusLongRangeDamage: 0

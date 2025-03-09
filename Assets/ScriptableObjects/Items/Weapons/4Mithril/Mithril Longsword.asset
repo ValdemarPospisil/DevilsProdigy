@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Mithril Longsword
+  m_EditorClassIdentifier: 
+  mat: 3
+  type: 0
+  itemID: 29
+  Name: Mithril Longsword
+  uiDisplay: {fileID: 2138759321, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 23 -32 + Elemental Damage
+
+    Knockback power: 12
+
+    Weapon
+    Type: Swords
+
+    Element: Wind'
+  longDescription: 'The Mithril Longsword is a legendary weapon that blends the exceptional
+    properties of mithril with the versatility of a longsword. Meticulously crafted
+    from rare and precious mithril, it features a sleek, single-edged blade and an
+    intricately designed hilt.
+
+    What sets the Mithril Longsword apart is its
+    unparalleled craftsmanship and its profound connection to the wind element. As
+    the wielder harnesses their skill, the sword''s power heightens, scaling its
+    damage potential with the swift and agile forces of the wind.
+
+    Forged by
+    master artisans who have unlocked the secrets of mithril, the Mithril Longsword
+    represents the epitome of blade mastery. Its balanced construction and exquisite
+    design make it a symbol of grace and precision.
+
+    As a testament to the profound
+    bond between humanity and the wind, the Mithril Longsword channels the elemental
+    power into a weapon capable of swift strikes and seamless maneuvers. It becomes
+    an extension of the wielder''s finesse, empowering them to cut through adversaries
+    with the speed and fluidity of a gentle breeze, while harnessing the might of
+    the wind to overpower their foes.'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 2ca04fd672a04b040ac5e75dcce278b8, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805471765463040
+  - rid: 1726805471765463041
+  - rid: 1726805471765463042
+  - rid: 1726805590730080323
+  - rid: 7577151533548830740
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805471765463040
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -833614219, guid: 6929144bf14125d4a8245e4e0fbed584, type: 3}
+            - {fileID: -2056614318, guid: 6929144bf14125d4a8245e4e0fbed584, type: 3}
+            - {fileID: -1854163893, guid: 6929144bf14125d4a8245e4e0fbed584, type: 3}
+            - {fileID: -1716734195, guid: 6929144bf14125d4a8245e4e0fbed584, type: 3}
+    - rid: 1726805471765463041
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 5
+    - rid: 1726805471765463042
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.2
+            y: -0.5
+            width: 1.5
+            height: 1.2
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080323
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 23
+          <AmountMax>k__BackingField: 32
+    - rid: 7577151533548830740
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 3}
+          <Strength>k__BackingField: 12

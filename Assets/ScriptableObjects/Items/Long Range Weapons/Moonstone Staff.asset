@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Moonstone Staff
+  m_EditorClassIdentifier: 
+  mat: 11
+  type: 3
+  itemID: 26
+  Name: Moonstone Staff
+  uiDisplay: {fileID: 763483748, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 
+  longDescription: 
+  <AnimatorController>k__BackingField: {fileID: 0}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805476776607756
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805476776607756
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField: []

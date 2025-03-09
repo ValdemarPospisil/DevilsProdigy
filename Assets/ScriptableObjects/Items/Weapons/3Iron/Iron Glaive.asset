@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Iron Glaive
+  m_EditorClassIdentifier: 
+  mat: 2
+  type: 1
+  itemID: 19
+  Name: Iron Glaive
+  uiDisplay: {fileID: 217193899, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 15 - 25 + Elemental Damage
+
+    Knockback power: 8
+
+    Weapon
+    Type: Polearms
+
+    Element: Earth'
+  longDescription: 'The Iron Glaive is a formidable weapon that harnesses the power
+    of the earth. Crafted from solid iron, it features a long shaft with a curved,
+    blade-like head.
+
+    What sets the Iron Glaive apart is its unique affinity
+    for the earth element. As the wielder taps into the earth''s energies, the glaive''s
+    power amplifies, scaling its damage potential with the raw strength of the earth.
+
+    Forged
+    by skilled blacksmiths, the Iron Glaive represents the fusion of iron and natural
+    elements. Its sleek design and balanced construction make it a symbol of both
+    grace and effectiveness.
+
+    The Iron Glaive serves as a testament to the deep
+    connection between humanity and the earth, channeling its elemental power into
+    a versatile weapon capable of swift strikes and precise maneuvers. It becomes
+    an extension of the wielder''s will, enabling them to carve through enemies with
+    the force of an earthbound tempest.'
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 20b3a5804c9281148a2a0655d757dfc2, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805476776607744
+  - rid: 1726805476776607745
+  - rid: 1726805476776607746
+  - rid: 1726805590730080298
+  - rid: 7577151533548830729
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805476776607744
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: 
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1981712665, guid: 7f3662dfa0c210e4a92b503751871b68, type: 3}
+            - {fileID: -1847657805, guid: 7f3662dfa0c210e4a92b503751871b68, type: 3}
+            - {fileID: -80257130, guid: 7f3662dfa0c210e4a92b503751871b68, type: 3}
+            - {fileID: 1015270076, guid: 7f3662dfa0c210e4a92b503751871b68, type: 3}
+    - rid: 1726805476776607745
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 4
+    - rid: 1726805476776607746
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.2
+            y: -0.4
+            width: 2.4
+            height: 0.7
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080298
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 15
+          <AmountMax>k__BackingField: 25
+    - rid: 7577151533548830729
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 2}
+          <Strength>k__BackingField: 8

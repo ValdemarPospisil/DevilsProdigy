@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30b406ea7a46874080305478966650d, type: 3}
+  m_Name: playerData
+  m_EditorClassIdentifier: 
+  movementVelocity: 8
+  bonusMovementVelocity: 0
+  jumpVelocity: 22
+  bonusJumpVelocity: 0
+  amountOfJumps: 1
+  bonusAmountOfJumps: 0
+  wallJumpVelocity: 22
+  wallJumpTime: 0.4
+  wallJumpAngle: {x: 1, y: 2}
+  coyoteTime: 0.2
+  variableJumpHeightMultiplier: 0.5
+  wallSlideVelocity: 1.5
+  wallClimbVelocity: 3
+  startOffset: {x: 0.15, y: 0.75}
+  stopOffset: {x: 0.2, y: 0.2}
+  dashCooldown: 2
+  minusDashCooldown: 0
+  maxHoldTime: 1
+  holdTimeScale: 0.25
+  dashTime: 0.2
+  dashVelocity: 25
+  bonusDashVelocity: 0
+  drag: 10
+  dashEndYMultiplier: 0.2
+  distBetweenAfterImages: 0.5
+  crouchMovementVelocity: 5
+  crouchColliderHeight: 0.8
+  standColliderHeight: 1.6
+  stunTime: 2
+  noFriction: {fileID: 6200000, guid: 8a298d0045d12524c90a2170aefedba5, type: 2}
+  fullFriction: {fileID: 6200000, guid: f826f7f85322d414796c83545a3bd585, type: 2}
+  MaxHealth: 200
+  bonusMaxHealth: 0
+  currentHealth: 200
+  bonusCurrentHealth: 0
+  IsRegenActive: 0
+  regenHealAmount: 0
+  regenDuration: 23
+  isInvulnerable: 0
+  iFramesDuration: 1
+  numberOfFlashes: 4
+  bonusAmountOfLives: 0
+  shieldOnDuration: 0
+  shieldOffDuration: 0
+  numberOfFlashesShield: 0
+  isShieldActive: 0
+  acidProjectile: {fileID: 2838345424615799783, guid: 84c71e0664fe8d94cb469e0c3fbb8bfc, type: 3}
+  darkProjectile: {fileID: 2838345424615799783, guid: 73766819ad4b90d458ce90a8f5d9c777, type: 3}
+  earthProjectile: {fileID: 2838345424615799783, guid: 1efd2e14ab2fc7146af954a75856136e, type: 3}
+  fireProjectile: {fileID: 2838345424615799783, guid: cf445ce59c0784a468b724c70c031f0a, type: 3}
+  holyProjectile: {fileID: 2838345424615799783, guid: 3e42e6a99b03516469cf92dbb7ee570a, type: 3}
+  iceProjectile: {fileID: 2838345424615799783, guid: bcc418f7cca83934a870bfb39f5ae260, type: 3}
+  thunderProjectile: {fileID: 2838345424615799783, guid: 15847025222b99f4fafe6dd5853c18d4, type: 3}
+  waterProjectile: {fileID: 2838345424615799783, guid: dc30d07bdddadc8468841c747b28a1ef, type: 3}
+  windProjectile: {fileID: 2838345424615799783, guid: f210dc8352ca4d7498c473de4f0b73a5, type: 3}
+  natureProjectile: {fileID: 2838345424615799783, guid: 9037c4139f93c0c4683409f4b24200f5, type: 3}
+  acidDuration: 40
+  darkDuration: 20
+  earthDuration: 20
+  fireDuration: 40
+  holyDuration: 40
+  iceDuration: 40
+  thunderDuration: 18
+  waterDuration: 40
+  windDuration: 40
+  natureDuration: 40
+  IsActiveAcid: 0
+  IsActiveDark: 0
+  IsActiveEarth: 0
+  IsActiveFire: 0
+  IsActiveHoly: 0
+  IsActiveIce: 0
+  IsActiveThunder: 0
+  IsActiveWater: 0
+  IsActiveWind: 0
+  IsActiveNature: 0

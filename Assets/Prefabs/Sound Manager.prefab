@@ -1,0 +1,618 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3280414586231326809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3280414586231326804}
+  - component: {fileID: 3280414586231326807}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3280414586231326804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3280414586231326809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 268.18143, y: -29.965418, z: -0.15606627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3280414586231326807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3280414586231326809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 354eacf662b6d04409aa30e5e8c4119e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXGroup: {fileID: -1159468230745851103, guid: 5dc7a35e1b267984dac5758b8ee9cedb, type: 2}
+  MusicGroup: {fileID: 1446111141778905848, guid: 5dc7a35e1b267984dac5758b8ee9cedb, type: 2}
+  sounds:
+  - name: Walk
+    audioType: 0
+    clip: {fileID: 8300000, guid: edfebb6ffda3f0e458ff59f9e1ef1fe7, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 1
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Theme
+    audioType: 1
+    clip: {fileID: 8300000, guid: 6dcdc35dee856594183329f01ce8aa82, type: 3}
+    pitch: 1.35
+    volume: 0.6
+    isLoop: 1
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Coin
+    audioType: 0
+    clip: {fileID: 8300000, guid: 47737641babfe47a19fa86fed5fde7ed, type: 3}
+    pitch: 1.35
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Jump
+    audioType: 0
+    clip: {fileID: 8300000, guid: 7878b285d78137246a38bc755d0349a3, type: 3}
+    pitch: 1.35
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 1
+    source: {fileID: 0}
+  - name: Land
+    audioType: 0
+    clip: {fileID: 8300000, guid: e5a96eede1af0cc42b051c09d0ba53dc, type: 3}
+    pitch: 1.35
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Dash
+    audioType: 0
+    clip: {fileID: 8300000, guid: d8415bb5f0925b0458a143b49ddb1353, type: 3}
+    pitch: 1.35
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Die
+    audioType: 0
+    clip: {fileID: 8300000, guid: dc5bab13f65c6c54b81c91e47cc2b0c9, type: 3}
+    pitch: 1
+    volume: 0.7
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Teleport
+    audioType: 0
+    clip: {fileID: 8300000, guid: d733be5fda685ba4b8f83f16f0ff2264, type: 3}
+    pitch: 1.35
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: WallJump
+    audioType: 0
+    clip: {fileID: 8300000, guid: ed65861af20efb34da335a345e3f44ab, type: 3}
+    pitch: 1.35
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Meow
+    audioType: 0
+    clip: {fileID: 8300000, guid: 32d05432865c2e04fbe210d0ccfebd76, type: 3}
+    pitch: 1
+    volume: 0.2
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: GetHit
+    audioType: 0
+    clip: {fileID: 8300000, guid: 048edd33661df084b902959b7d25b176, type: 3}
+    pitch: 1.01
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: LevelUp
+    audioType: 0
+    clip: {fileID: 8300000, guid: b71471b25d40fb645bb43dab608cc644, type: 3}
+    pitch: 1.01
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Flesh
+    audioType: 0
+    clip: {fileID: 8300000, guid: ac505655f4831464185a3e2f50721398, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Xp
+    audioType: 0
+    clip: {fileID: 8300000, guid: c8e017c7bf226f94a9306a6ee1086632, type: 3}
+    pitch: 1.01
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Pause
+    audioType: 0
+    clip: {fileID: 8300000, guid: 1553d6cc3bb30284a9f0e027cfed8edc, type: 3}
+    pitch: 0.59
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Resume
+    audioType: 0
+    clip: {fileID: 8300000, guid: 59542b69f161dcc41af7aaa28577b626, type: 3}
+    pitch: 0.73
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Fire
+    audioType: 0
+    clip: {fileID: 8300000, guid: 0b0685290b9f9cf45809f900aed10f89, type: 3}
+    pitch: 1
+    volume: 0.5
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Ice
+    audioType: 0
+    clip: {fileID: 8300000, guid: 84a9ebf9b79cfb94a833372f883c2fda, type: 3}
+    pitch: 1
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Thunder
+    audioType: 0
+    clip: {fileID: 8300000, guid: 54472937faeda3f468c70b16ad37c802, type: 3}
+    pitch: 1
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Water
+    audioType: 0
+    clip: {fileID: 8300000, guid: 423140e7bba4e4949a80875ee9bf57c6, type: 3}
+    pitch: 1
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Wind
+    audioType: 0
+    clip: {fileID: 8300000, guid: d9d06a51e1441f541bc2957e466c0059, type: 3}
+    pitch: 1
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Earth
+    audioType: 0
+    clip: {fileID: 8300000, guid: 9ec29eb842fe9354086cdc7d8df4e7f8, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Holy
+    audioType: 0
+    clip: {fileID: 8300000, guid: b895659c186a9204a9cbf38f52a943be, type: 3}
+    pitch: 1
+    volume: 0.25
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Dark
+    audioType: 0
+    clip: {fileID: 8300000, guid: a198b5428c9f7304a8d61885d54e2cec, type: 3}
+    pitch: 1.5
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Acid
+    audioType: 0
+    clip: {fileID: 8300000, guid: 7032065674ce1964aa598dc98dea8c0f, type: 3}
+    pitch: 1
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Nature
+    audioType: 0
+    clip: {fileID: 8300000, guid: f5ffc11167915324b922c2f2072886e2, type: 3}
+    pitch: 1
+    volume: 0.8
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Door
+    audioType: 0
+    clip: {fileID: 8300000, guid: 8bd8ce1c40c10b84baa4e7a2d90aaeb1, type: 3}
+    pitch: 1
+    volume: 1
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Heal
+    audioType: 0
+    clip: {fileID: 8300000, guid: b1876289626a02c4299c3236e943e391, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Health
+    audioType: 0
+    clip: {fileID: 8300000, guid: c9baed5d4cd9bdf48ae921e5a9b5317f, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Regen
+    audioType: 0
+    clip: {fileID: 8300000, guid: 6592bef72cff7614f9024cdd94e2aa24, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: MovementBuff
+    audioType: 0
+    clip: {fileID: 8300000, guid: f3156c7ddbbd2b84e991f4b220fe41b7, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: JumpBuff
+    audioType: 0
+    clip: {fileID: 8300000, guid: 9767cc67c121a544b9707c9c8ed25e54, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: DashBuff
+    audioType: 0
+    clip: {fileID: 8300000, guid: e2d9d94dec0de0d4bb2d022d9c9e783a, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: SwordBuff
+    audioType: 0
+    clip: {fileID: 8300000, guid: 3978d598787b8f8489ddd50bfb182697, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: PolearmBuff
+    audioType: 0
+    clip: {fileID: 8300000, guid: 6604cca00bae3be4e80da30faef3417d, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: HeavyBuff
+    audioType: 0
+    clip: {fileID: 8300000, guid: f5f0b1027ef34fc41b7af858a0c060e0, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: LongBuff
+    audioType: 0
+    clip: {fileID: 8300000, guid: 3dd9376d38c2c6141b9c6ebc1e02af99, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Shield
+    audioType: 0
+    clip: {fileID: 8300000, guid: 8caee88f2a7be0049b569eaddf1d1c56, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Revive
+    audioType: 0
+    clip: {fileID: 8300000, guid: 124373f7e851a5f42ba5597254e34091, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Sword
+    audioType: 0
+    clip: {fileID: 8300000, guid: ad506c96d674b974884f744c436a3eaa, type: 3}
+    pitch: 1
+    volume: 0.5
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Polearm
+    audioType: 0
+    clip: {fileID: 8300000, guid: 851209b9af67d39448bc49ec83ae78a7, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Heavy
+    audioType: 0
+    clip: {fileID: 8300000, guid: c3767479654aba64bb75303cd0e926c2, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: EnemyDead
+    audioType: 0
+    clip: {fileID: 8300000, guid: b428849b8ea52a048977a96acc2523f9, type: 3}
+    pitch: 1
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Claw
+    audioType: 0
+    clip: {fileID: 8300000, guid: aa00eb14fe74b3a4882f7a611f4114fd, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Bite
+    audioType: 0
+    clip: {fileID: 8300000, guid: dadd5c687cda03346b4f82142daf5cf0, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: SpecialMove
+    audioType: 0
+    clip: {fileID: 8300000, guid: 75d8fc8dac7bfcf40b21b0c1e9ebed99, type: 3}
+    pitch: 1
+    volume: 0.5
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: BossDeath
+    audioType: 0
+    clip: {fileID: 8300000, guid: ce4c2e986fd00694cad9566a7b79bd62, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Encouter
+    audioType: 0
+    clip: {fileID: 8300000, guid: 03416cf1c32debf46ab5dc815993b2a2, type: 3}
+    pitch: 1
+    volume: 0.7
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Equip
+    audioType: 0
+    clip: {fileID: 8300000, guid: 26138a9ed49653d4698594adb95dee39, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Buy
+    audioType: 0
+    clip: {fileID: 8300000, guid: aa13273409e31cd4289640e74ac45686, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Confirm
+    audioType: 0
+    clip: {fileID: 8300000, guid: e1ecf2606581bd1409e97dfe7dae0799, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: BowShot
+    audioType: 0
+    clip: {fileID: 8300000, guid: ce5559fb27eba69498881a8fe2f0807e, type: 3}
+    pitch: 1
+    volume: 1
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: BowDraw
+    audioType: 0
+    clip: {fileID: 8300000, guid: 26725bde3da0f3b49acf03b7fda85fcf, type: 3}
+    pitch: 1
+    volume: 0.8
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Impact
+    audioType: 0
+    clip: {fileID: 8300000, guid: 63d7d34814898d84da534f9bb272319c, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Swoosh
+    audioType: 0
+    clip: {fileID: 8300000, guid: 26fed8649034f3f43af75d5ab696b496, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Slash
+    audioType: 0
+    clip: {fileID: 8300000, guid: 3bbd3d61d0637b7438b3871c4ff08ce0, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Shaman
+    audioType: 0
+    clip: {fileID: 8300000, guid: 8f73ed676e8cc064085c7c5c5a51a799, type: 3}
+    pitch: 1
+    volume: 0.4
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Pierce
+    audioType: 0
+    clip: {fileID: 8300000, guid: f8305b2dfc6ef7843b4d8a6a0360f15e, type: 3}
+    pitch: 1
+    volume: 0.6
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Menu
+    audioType: 1
+    clip: {fileID: 8300000, guid: aa0bdc81811dc6e428e4c05ea554dae0, type: 3}
+    pitch: 1
+    volume: 0.5
+    isLoop: 1
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Base
+    audioType: 1
+    clip: {fileID: 8300000, guid: 9ff70f837ebadac4180b97f80a8b7aea, type: 3}
+    pitch: 1
+    volume: 0.5
+    isLoop: 1
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Plains
+    audioType: 1
+    clip: {fileID: 8300000, guid: ea350100d83484f46b501e75621c1d0f, type: 3}
+    pitch: 1
+    volume: 0.5
+    isLoop: 1
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: Cave
+    audioType: 1
+    clip: {fileID: 8300000, guid: 91c013ea5c41fbd4889d61f516b3045c, type: 3}
+    pitch: 1
+    volume: 0.5
+    isLoop: 1
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  - name: CatHit
+    audioType: 0
+    clip: {fileID: 8300000, guid: bc32ced600ae0b04e95fac10230c3b24, type: 3}
+    pitch: 1
+    volume: 0.7
+    isLoop: 0
+    isMute: 0
+    hasCooldown: 0
+    source: {fileID: 0}
+  muteMusicToggle: {fileID: 0}
+  muteSFXToggle: {fileID: 0}

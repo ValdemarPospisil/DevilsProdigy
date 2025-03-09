@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e098abd21b8ac4bbfd9f869e9d8799, type: 3}
+  m_Name: Common Terra Shard
+  m_EditorClassIdentifier: 
+  type: 0
+  uiDisplay: {fileID: -1703490716, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Terra Shard
+  description: 'Unleash the might of the earth with Terra Shard, casting shards of
+    solid earth that pulverize enemies upon impact.
+
+
+
+    Damage: 15 + Earth Damage
+
+    Speed:
+    Slow
+
+    Travel Distance: Short to Medium
+
+'
+  element: 2
+  projectile: {fileID: 2838345424615799783, guid: 1efd2e14ab2fc7146af954a75856136e, type: 3}
+  projectileSpeed: 10.1
+  travelDistance: 7.6
+  damage: 15
+  isBack: 0

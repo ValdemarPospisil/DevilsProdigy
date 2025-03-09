@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Onyx Spear
+  m_EditorClassIdentifier: 
+  mat: 12
+  type: 1
+  itemID: 116
+  Name: Onyx Spear
+  uiDisplay: {fileID: -1023509696, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 155 - 199 + Elemental Damage
+
+    Knockback power: 10
+
+    Weapon
+    Type: Polearms
+
+    Element: Dark, Thunder, Fire and Earth'
+  longDescription: 
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 20b3a5804c9281148a2a0655d757dfc2, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805476776607753
+  - rid: 1726805476776607754
+  - rid: 1726805476776607755
+  - rid: 1726805590730080337
+  - rid: 7577151533548830753
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805476776607753
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -81991532, guid: 8373b9a6d7df15148ad8a936b0d0f92d, type: 3}
+            - {fileID: -1375594721, guid: 8373b9a6d7df15148ad8a936b0d0f92d, type: 3}
+            - {fileID: -2006270422, guid: 8373b9a6d7df15148ad8a936b0d0f92d, type: 3}
+            - {fileID: 1507723253, guid: 8373b9a6d7df15148ad8a936b0d0f92d, type: 3}
+    - rid: 1726805476776607754
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 3
+    - rid: 1726805476776607755
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.2
+            y: -0.4
+            width: 2.4
+            height: 0.7
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080337
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 155
+          <AmountMax>k__BackingField: 199
+    - rid: 7577151533548830753
+      type: {class: KnockBackData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 2, y: 2}
+          <Strength>k__BackingField: 10

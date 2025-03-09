@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937b7b9e08c162e48b7740f912addc59, type: 3}
+  m_Name: Chrysoberyl Battle Axe
+  m_EditorClassIdentifier: 
+  mat: 10
+  type: 2
+  itemID: 92
+  Name: Chrysoberyl Battle-Axe
+  uiDisplay: {fileID: -280229235, guid: 639f1c0928766f240af2443094620e5d, type: 3}
+  description: 'Damage: 101 - 147 + Elemental Damage
+
+    Stagger power: 75
+
+    Weapon
+    Type: Heavy Weaponry
+
+    Element: Earth, Nature and Holy'
+  longDescription: 
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 3dd3a822e9928ea46a15967ed27dfc07, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1726805454398947412
+  - rid: 1726805454398947413
+  - rid: 1726805454398947414
+  - rid: 1726805590730080270
+  - rid: 7577151511022796816
+  references:
+    version: 2
+    RefIds:
+    - rid: 1726805454398947412
+      type: {class: WeaponSpriteData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1005578084, guid: 90fc4b507f445484eb91df0e7c225aac, type: 3}
+            - {fileID: -564932441, guid: 90fc4b507f445484eb91df0e7c225aac, type: 3}
+            - {fileID: -1788132291, guid: 90fc4b507f445484eb91df0e7c225aac, type: 3}
+            - {fileID: -1850423093, guid: 90fc4b507f445484eb91df0e7c225aac, type: 3}
+    - rid: 1726805454398947413
+      type: {class: MovementData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 5
+    - rid: 1726805454398947414
+      type: {class: ActionHitBoxData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.3
+            y: -0.6
+            width: 2
+            height: 1.7
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 128
+    - rid: 1726805590730080270
+      type: {class: DamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <AmountMin>k__BackingField: 101
+          <AmountMax>k__BackingField: 147
+    - rid: 7577151511022796816
+      type: {class: PoiseDamageData, ns: Prodigy.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: PoiseDamageData
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 75

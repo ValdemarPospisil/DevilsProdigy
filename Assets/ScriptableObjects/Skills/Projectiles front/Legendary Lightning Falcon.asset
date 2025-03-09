@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e098abd21b8ac4bbfd9f869e9d8799, type: 3}
+  m_Name: Legendary Lightning Falcon
+  m_EditorClassIdentifier: 
+  type: 4
+  uiDisplay: {fileID: 1043860410, guid: c98ace1e7fadc6b458b756aec38db54d, type: 3}
+  nameOfSkill: Lightning Falcon
+  description: 'Harness the fury of lightning with the Lightning Falcon, commanding
+    a thunderous avian ally to strike down foes.
+
+
+    Damage: 50 + Thunder Damage
+
+    Speed:
+    Fast
+
+    Travel Distance: Long
+
+'
+  element: 6
+  projectile: {fileID: 2838345424615799783, guid: 15847025222b99f4fafe6dd5853c18d4, type: 3}
+  projectileSpeed: 16.2
+  travelDistance: 7.1
+  damage: 50
+  isBack: 0
