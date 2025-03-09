@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using Prodigy.Weapons;
 using UnityEngine.SceneManagement;
@@ -114,13 +111,4 @@ public class GroundItem : MonoBehaviour
         SoundManager.instance.Play("Equip");
         Destroy(this.gameObject);
     }
-
-
-    private void OnValidate()
-    {
-#if UNITY_EDITOR
-        GetComponentInChildren<SpriteRenderer>().sprite = item.uiDisplay;
-#endif
-    }
-
 }

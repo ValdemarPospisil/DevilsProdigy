@@ -33,7 +33,7 @@ namespace Prodigy.CoreSystem
 
 
         private void Start() {
-            soundManager = FindObjectOfType<SoundManager>();
+            soundManager = FindFirstObjectByType<SoundManager>();
             player = core.transform.parent.gameObject.GetComponent<Player>();
         }
 

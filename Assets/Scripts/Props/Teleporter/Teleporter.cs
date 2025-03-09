@@ -40,7 +40,7 @@ public Transform GetDestination()
         player = GameObject.FindWithTag("Player");
         playerInputHandler = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInputHandler>();
         canTeleport = false;
-        soundManager = FindObjectOfType<SoundManager>();
+        soundManager = FindFirstObjectByType<SoundManager>();
         if(border != null)
         {
             border.SetActive(false);

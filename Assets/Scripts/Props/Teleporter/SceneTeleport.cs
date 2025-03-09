@@ -39,9 +39,9 @@ namespace Prodigy
     {
         anim = GetComponent<Animator>();
         player = GameObject.FindWithTag("Player");
-        playerInputHandler = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInputHandler>();
+        playerInputHandler = player.GetComponent<PlayerInputHandler>();
         canTeleport = false;
-        soundManager = FindObjectOfType<SoundManager>();
+        soundManager = FindFirstObjectByType<SoundManager>();
         border.SetActive(false);
         if(visualCue != null)
         {

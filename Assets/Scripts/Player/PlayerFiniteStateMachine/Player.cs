@@ -116,7 +116,7 @@ public class Player : MonoBehaviour
         primaryWeapon.SetCore(Core);
         secondaryWeapon.SetCore(Core);
 
-        soundManager = FindObjectOfType<SoundManager>();
+        soundManager = FindFirstObjectByType<SoundManager>();
         
         StateMachine = new PlayerStateMachine();
 

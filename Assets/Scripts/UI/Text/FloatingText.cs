@@ -16,7 +16,7 @@ namespace Prodigy
         void Start()
         {
             unit = transform.parent;
-            canvas = GameObject.FindObjectOfType<Canvas>().transform;
+            canvas = GameObject.FindFirstObjectByType<Canvas>().transform;
 
             transform.SetParent(canvas);
 
